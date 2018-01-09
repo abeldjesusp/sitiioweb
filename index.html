@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Aqui toda nuestra description">
+		<meta name="keywords" content="Aqui, Palabras, Clave">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slides.min.js"></script>
+		<script>
+			$(function(){
+				$("#slideshow").slidesjs({
+					pagination: {
+						active: true,
+						effect: "slide"
+					}
+				});
+			});
+		</script>
+		<title>Titulo de nuestra web</title>
+	</head>
+	<body>
+		<header>
+			<div id="subheader">
+				<div id="logotipo">
+					<p><a href="#">ABEL</a></p>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="wrap">
+			<!-- Main -->
+			<section id="main">
+
+				<!-- Slideshow -->
+				<section id="slideshow">
+						<a href="#"><img src="imagenes/slide-1.jpg"/></a>
+						<a href="#"><img src="imagenes/slide-2.jpg"/></a>
+						<a href="#"><img src="imagenes/slide-3.jpg"/></a>
+				</section>
+				<!-- End Slideshow -->
+
+				<!-- Bienvenidos -->
+				<section id="bienvenidos">
+					<article>
+						<hgroup><h3>Bienvenido a nuestro sitio web</h3></hgroup>
+						<p>
+							<ul>
+								<li>+ Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+								<li>+ Mollitia labore quibusdam totam eaque officia magni tempore sint</li>
+								<li>+ Quis nemo, sed. Enim minus nam, eligendi perferendis.</li>
+								<li>+ Aperiam ducimus iste odit, excepturi sunt, vero repellat dolorum</li>
+								<li>+ Optio sapiente asperiores reprehenderit expedita recusandae</li>
+							</ul>
+						</p>
+					</article>
+				</section>
+				<!-- End Bienvenidos -->
+
+				<!-- Contenido -->
+				<section id="contenido">
+					<article>
+						<hgroup><h2 class="titulo">Titulo articulo</h2></hgroup>
+						<p class="fecha">5 de Enero de 2017</p>
+						<img src="imagenes/thumb1.jpg" alt="Thumbail #1" class="thumb">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse officia provident doloribus, veritatis sint, autem reiciendis deleniti recusandae nam!<br/><br/>Aut cupiditate eum expedita excepturi inventore ratione dignissimos ducimus tempore reiciendis.</p>
+					</article>
+
+					<article>
+						<hgroup><h2 class="titulo">Titulo articulo</h2></hgroup>
+						<p class="fecha">5 de Enero de 2017</p>
+						<img src="imagenes/thumb2.jpg" alt="Thumbail #1" class="thumb">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse officia provident doloribus, veritatis sint, autem reiciendis deleniti recusandae nam!<br/><br/>Aut cupiditate eum expedita excepturi inventore ratione dignissimos ducimus tempore reiciendis.</p>
+					</article>
+				</section>
+				<!-- End Contenido -->
+				<!-- Sidebar -->
+				<aside>
+					<section class="widget">
+						<h3>Articulos Recientes</h3>
+						<ul>
+							<li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+							<li><a href="#">Mollitia labore quibusdam.</a></li>
+							<li><a href="#">Quis nemo, sed. Enim minus.</a></li>
+							<li><a href="#">Aperiam ducimus iste odit.</a></li>
+							<li><a href="#">Optio sapiente asperiores.</a></li>
+						</ul>
+					</section>
+
+					<section class="widget">
+						<h3>Articulos Recientes</h3>
+						<img src="imagenes/publicidad.png" alt="publicidad" />
+					</section>
+				</aside>
+				<!-- End Sidebar -->
+			</section>
+			<!-- End Main -->
+
+			<footer>
+
+				<!-- Acerca de  -->
+				<section id="acerca-de">
+					<article>
+						<hgroup><h3>Acerca de ...</h3></hgroup>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas saepe, laboriosam accusamus ullam rerum laborum ad, cum, architecto sed id enim quam veniam ut atque tempore officia, sit nisi asperiores!</p>
+					</article>
+				</section>
+				<!-- End Acerca de -->
+
+				<!-- Redes Sociales -->
+				<section id="redes-s">
+					<div class="email"><a href="#"></a></div>
+					<div class="twitter"><a href="#"></a></div>
+					<div class="youtube"><a href="#"></a></div>
+					<div class="facebook"><a href="#"></a></div>
+				</section>
+				<!-- End Redes Sociales -->
+			</footer>
+
+			<div id="copyright">
+				<p>&copy;Copyright <span class="barrita"></span> Hecho por Abel De Jesus <span class="barrita"></span> 2018</p>
+			</div>
+		</section>
+	</body>
+</html>
